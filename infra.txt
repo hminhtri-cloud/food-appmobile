@@ -1,0 +1,49 @@
+project/
+├── app/
+│   ├── build.gradle.kts
+│   │
+│   └── src/
+│       ├── main/
+│       │   ├── AndroidManifest.xml
+│       │   │
+│       │   ├── java/
+│       │   │   └── com/
+│       │   │       └── example/
+│       │   │           └── demo/
+│       │   │               ├── MainActivity.kt
+│       │   │               │
+│       │   │               └── ui/
+│       │   │                   └── theme/
+│       │   │                       ├── Color.kt
+│       │   │                       ├── Theme.kt
+│       │   │                       └── Type.kt
+│       │   │
+│       │   ├── res/
+│       │   │   ├── drawable/
+│       │   │   ├── mipmap-*/
+│       │   │   ├── values/
+│       │   │   │   ├── colors.xml
+│       │   │   │   ├── strings.xml
+│       │   │   │   └── themes.xml
+│       │   │   └── xml/
+│       │   │
+│       │   └── keepRules/
+│       │       └── rules.keep
+│       │
+│       ├── androidTest/
+│       │   └── ...
+│       │
+│       └── test/
+│           └── ...
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── local.properties
+│
+├── gradle/
+│   ├── libs.versions.toml
+│   └── wrapper/
+│
+├── gradlew
+└── gradlew.bat
